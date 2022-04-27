@@ -1,0 +1,412 @@
+@font-face {
+	font-family: 'Phasmomap';
+	src:url('/tools/fonts/font.ttf');
+	font-weight: normal;
+	font-style: normal;
+}
+.youtube { 
+    position: absolute;
+    border-radius: 20px;
+    bottom: 35px;
+    right:35px;
+    width: 230px;
+    height: 129px;
+    z-index: 3001;
+    background: linear-gradient(to right, #181E23, #060E12), #181E23; 
+    box-shadow: 0 3px 14px rgb(0 0 0 / 40%); 
+}
+
+.youtube a {
+    cursor: pointer;
+    width: 18px;
+    height: 14px;
+    font: 16px/14px Tahoma, Verdana, sans-serif;
+    color: #c3c3c3;
+    text-decoration: none;
+    font-weight: bold;
+    background: transparent;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.sidenav .nav{
+    margin-left: 30px;
+    padding-bottom: 400px;
+    overflow-y: auto;
+}
+
+.sidenav .nav hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 3000;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    font-weight: 100;
+    background: #181E23;
+    -webkit-box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: -3px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    color: #fff;
+}
+
+.sidenav * {
+    color: #fff;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    z-index:99;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px; }
+}
+
+#menuButton {
+    z-index: 4000;
+    font-size: 30px; 
+    position: absolute; 
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+.language { 
+    margin-top: -10px;
+    font-family: fantasy;
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 0.5;
+}
+
+.language:hover {
+    opacity: 1;
+}
+
+.leaflet-tooltip-top:before, .leaflet-tooltip-bottom:before, .leaflet-tooltip-left:before, .leaflet-tooltip-right:before {
+    border: none !important;
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-content-wrapper .leaflet-popup-content {
+    width: auto !important;
+    min-width: 200px;
+    color: #fff;
+    background: linear-gradient(to right, #181E23, #060E12), #181E23;
+}
+
+.leaflet-popup-content {
+    max-height: 400px !important;
+    overflow: auto;
+}
+
+#markerInfo, #markerComments {
+    padding: 20px;
+    min-width: 200px;
+    overflow: hidden;
+    overflow-y: auto;
+    max-height: 300px;
+    vertical-align: top;
+
+}
+
+.author {
+    font-size: 10px !important;
+}
+
+.google {
+    display: inline-flex;
+    width: 100%;
+}
+
+.google > img,
+.google > a  {
+    display: inline-block;
+    margin: 0;
+}
+
+.commentform textarea {
+    border: none;
+    background: #060E12;
+    font-size: 14px;
+    color: #fff;
+    height: 60px;
+    border-radius: 5px;
+    width: 250px;
+    padding: 10px;
+}
+
+.commentform input {
+    border: none;
+    background: #181E23;
+    font-size: 14px;
+    color: #ccc;
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    margin-top: -2px;
+}
+
+.google img {
+    width: 20px !important;
+}
+
+.google {
+    font-size: 18px !important;
+}
+
+.leaflet-right {
+    z-index: 3000 !important;
+}
+
+#markerComments {
+    margin-bottom: 200px;
+}
+
+#markerComments p {
+    font-size: 12px;
+}
+
+.menu .nav {
+    position: absolute;
+    height: 100% !important;
+    margin-top: 0;
+    padding: 20px;
+    background: linear-gradient(to right, #181E23, #060E12), #181E23;
+    width: inherit;
+    max-width: 270px;
+    overflow: scroll;
+    padding-bottom: 200px;
+    /*top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);*/
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-track {
+    background: #060E12;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #181E23;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #000;
+}
+  
+.intro {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 0;
+    right: 0;
+}
+
+.leaflet-control-layers {
+    box-shadow: none !important;
+}
+
+.clipmarker {
+    font-size: 14px;
+    margin-top: 20px;
+    opacity: 0.5;
+}
+
+.clipmarker:hover {
+    opacity: 1;
+}
+
+.clipmarker span {
+    color: #666 !important;
+}
+
+.clipmarker blockquote {
+    padding: 10px;
+    margin: 10px;
+    font-size: 10px;
+}
+
+.leaflet-popup-close-button {
+    opacity: 100% !important;
+}
+
+.my-label, .my-label2 {
+    position: absolute;
+    background:rgba(0,0,0,0);
+    color:#fff;
+    border: none;
+    font-size:20px;
+    box-shadow: none;
+    text-shadow: 1px 1px 2px black;
+}
+
+.my-label2 {
+    font-size: 14px;
+}
+
+.my-label:before {
+    border-right-color: none !important;
+}
+
+.leaflet-control-layers-expanded {
+    background: rgba(0, 0, 0, 0);
+    /*background-color: #060E12;
+    background-size: 100%;
+    background-image: url("../../images/x.png");
+    transition-property: opacity;
+    transition-duration: 1s;
+    opacity: 70%;*/
+}
+
+.leaflet-control-layers-expanded:hover {
+    opacity: 100%;
+}
+
+.leaflet-popup-tip {
+    background-color: gray;
+    opacity: 0%;
+
+}
+
+.leaflet-popup-close-button {
+    background-color: gray;
+    opacity: 0%;
+}
+
+.popupImage {
+    width: 300px;
+    min-width: 300px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.popupImage:hover {
+    transform: scale(3);
+    opacity: 1 !important;
+    border-style: solid;
+    border-color: gray;
+    border-width: 2px;
+    z-index: 1000 !important;
+}
+
+#markerInfo img {
+    max-width: 250px !important;
+}
+
+@media screen and (max-width:55em) {
+    .leaflet-top {
+        bottom: 0;
+    } 
+}
+
+.gtav {
+    margin: 0 auto;
+}
+
+.leaflet-container {
+	font-family: 'Phasmomap' !important;
+}
+
+body {
+    background-color:#060E12;
+	font-family: 'Phasmomap' !important;
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body,
+#map {
+    height: 100%;
+    width: 100%;
+}
+
+.disabled {
+	cursor: not-allowed;
+	color: #060E12;
+}
+
+#pagination {
+	margin-top: 20px;
+	padding-top: 30px;
+}
+
+#pagination .link {
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.commentformat * {
+    border: none;
+}
+
+.commentformat td {
+    padding: 10px;
+}
+
+.commentformat {
+    background: #060E12;
+    border-radius: 10px;
+    color: #ccc;
+    font-size: 14px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+.commentformat img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.commentformat .author {
+    color: #aaa;
+    font-size: 12px;
+}
+
+.commentformat .date {
+    color: #666;
+    font-size: 10px;
+}
+
+#dailyInfo {
+    margin-bottom: 20px;
+}
+
+#main {
+    color:#ffffff !important;
+}
+
+.title {
+    color: white;
+    z-index: 1000;
+    position: absolute;
+    left: 20px;
+    height: 30px;
+    font-size: 40px;
+    line-height: 40px;
+    display: block;
+}

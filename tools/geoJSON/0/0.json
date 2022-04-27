@@ -1,0 +1,22 @@
+[
+  {
+     "type":"Feature",
+     "properties":{
+        "id":"0",
+        "type":"0",
+        "author_id":"0",
+        "description":"{'ru': 'testru', 'en': 'testen'}",
+        "title":"{'ru': 'titleru', 'en': 'titleen'}",
+        "image":"",
+        "youtube":true,
+        "deprecated":"true"
+     },
+     "geometry":{
+        "type":"Point",
+        "coordinates":[
+           1000,
+           -1000
+        ]
+     }
+  }
+]

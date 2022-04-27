@@ -1,0 +1,252 @@
+{
+    "drawing_poligon_error": {
+        "en": "Polygon draw does not allow intersections!",
+        "ru": "При рисовании многоугольника не допускаются пересечения!"
+    },
+    "drawing_cansel": {
+        "en": "Cancel",
+        "ru": "Отменить"
+    },
+    "drawing_finish": {
+        "en": "Finish",
+        "ru": "Завершить"
+    },
+    "drawing_delete_last_point": {
+        "en": "Delete last point",
+        "ru": "Удалить последнюю точку"
+    },
+    "drawing_draw_polyline": {
+        "en": "Draw a polyline",
+        "ru": "Нарисовать ломанную линию"
+    },
+    "drawing_draw_polygon": {
+        "en": "Draw a polygon",
+        "ru": "Нарисовать многоугольник"
+    },
+    "drawing_draw_rectangle": {
+        "en": "Draw a rectangle",
+        "ru": "Нарисовать прямоугольник"
+    },
+    "drawing_draw_circle": {
+        "en": "Draw a circle",
+        "ru": "Нарисовать круг"
+    },
+    "drawing_draw_marker": {
+        "en": "Draw a marker",
+        "ru": "Нарисовать маркер"
+    },
+    "drawing_draw_circlemarker": {
+        "en": "Draw a circlemarker",
+        "ru": "Нарисовать маркер-круг"
+    },
+    "drawing_tooltip_circle": {
+        "en": "Click and drag to draw circle.",
+        "ru": "Кликни и зажми мышь для отрисовки."
+    },
+    "drawing_tooltip_circlemarker": {
+        "en": "Click map to place circle marker.",
+        "ru": "Кликни по карте для размещения маркера."
+    },
+    "drawing_tooltip_marker": {
+        "en": "Click map to place marker.",
+        "ru": "Кликни по карте для размещения маркера."
+    },
+    "drawing_tooltip_polygon_start": {
+        "en": "Click to start drawing shape.",
+        "ru": "Кликни по карте для отрисовки фигуры."
+    },
+    "drawing_tooltip_polygon_cont": {
+        "en": "Click to continue drawing shape.",
+        "ru": "Кликни для продолжения отрисовки фигуры."
+    },
+    "drawing_tooltip_polygon_end": {
+        "en": "Click first point to close this shape.",
+        "ru": "Кликни по первой точке для завершения фигуры."
+    },
+    "drawing_error_polyline": {
+        "en": "<strong>Error:</strong> shape edges cannot cross!",
+        "ru": "<strong>Ошибка:</strong> края формы не могут пересекаться!"
+    },
+    "drawing_tooltip_polyline_start": {
+        "en": "Click to start drawing line.",
+        "ru": "Кликни по карте для отрисовки линии."
+    },
+    "drawing_tooltip_polyline_cont": {
+        "en": "Click to continue drawing line.",
+        "ru": "Кликни для продолжения отрисовки линии."
+    },
+    "drawing_tooltip_polyline_end": {
+        "en": "Click last point to finish line.",
+        "ru": "Кликни последнюю точку чтобы закончить линию."
+    },
+    "drawing_tooltip_rectangle": {
+        "en": "Click and drag to draw rectangle.",
+        "ru": "Кликни и перетащи чтобы нарисовать прямоугольник."
+    },
+    "drawing_tooltip_simpleshape": {
+        "en": "Release mouse to finish drawing.",
+        "ru": "Отпустите кнопку мыши чтобы закончить рисование."
+    },
+    "drawing_cansel_title": {
+        "en": "Cancel drawing",
+        "ru": "Отменить рисование"
+    },
+    "drawing_finish_title": {
+        "en": "Finish drawing",
+        "ru": "Завершить рисование"
+    },
+    "drawing_delete_last_point_title": {
+        "en": "Delete last point drawn",
+        "ru": "Удалить последнюю нарисованную точку"
+    },
+    "drawing_radius_circle": {
+        "en": "Radius",
+        "ru": "Радиус"
+    },
+    "drawing_edit_toolbar_actions_save_title": {
+        "en": "Save changes",
+        "ru": "Сохранить изменения"
+    },
+    "drawing_edit_toolbar_actions_save_text": {
+        "en": "Save",
+        "ru": "Сохранить"
+    },
+    "drawing_edit_toolbar_actions_cancel_title": {
+        "en": "Cancel editing, discards all changes",
+        "ru": "Отменить редактирование сброс изменений"
+    },
+    "drawing_edit_toolbar_actions_cancel_text": {
+        "en": "Cancel",
+        "ru": "Отмена"
+    },
+    "drawing_edit_toolbar_actions_clear_title": {
+        "en": "Clear all layers",
+        "ru": "Очистить все слои"
+    },
+    "drawing_edit_toolbar_actions_clear_text": {
+        "en": "Clear All",
+        "ru": "Очистить всё"
+    },
+    "drawing_edit_toolbar_buttons_edit": {
+        "en": "Edit layers",
+        "ru": "Редатировать слой"
+    },
+    "drawing_edit_toolbar_buttons_editDisabled": {
+        "en": "No layers to edit",
+        "ru": "Нет слоев для редактирования"
+    },
+    "drawing_edit_toolbar_buttons_remove": {
+        "en": "Delete layers",
+        "ru": "Удалить слои"
+    },
+    "drawing_edit_toolbar_buttons_removeDisabled": {
+        "en": "No layers to delete",
+        "ru": "Нет слоев для удаления"
+        },
+    "drawing_handlers_edit_tooltip_text": {
+        "en": "Drag handles or markers to edit features.",
+        "ru": "Удерживай узлы или маркеры для редактирования объектов."
+    },
+    "drawing_handlers_edit_tooltip_subtext": {
+        "en": "Click cancel to undo changes.",
+        "ru": "Кликни Отмена для сброса изменений."
+    },
+    "drawing_handlers_remove_tooltip_text": {
+        "en": "Click on a feature to remove.",
+        "ru": "Нажмите на объект чтобы удалить."
+    },
+
+    "marker_added": {
+        "en": "Added by",
+        "ru": "Добавлено"
+    },
+    "marker_clipboard": {
+        "en": "Copy to clipboard",
+        "ru": "Скопировать в буффер"
+    },
+    "marker_share": {
+        "en": "Share",
+        "ru": "Поделиться"
+    },
+    "js_clipboard": {
+        "en": "Copied to clipboard",
+        "ru": "Скопировано в буффер"
+    },
+    "comments_title": {
+        "en": "Comments",
+        "ru": "Комментарии"
+    },
+    "comments_empty": {
+        "en": "There is no comments yet...",
+        "ru": "Комментариев здесь пока нет..."
+    },
+    "js_add": {
+        "en": "Do you want to add a new spot at this position?",
+        "ru": "Хотите добавить новую метку на эту позицию?"
+    },
+    "js_add_btn": {
+        "en": "Add",
+        "ru": "Добавить"
+    },
+    
+    "add_title": {
+        "en": "Add your marker to the map",
+        "ru": "Добавить свою метку на карту"
+    },
+    "add_descr_1": {
+        "en": "If you want to add your mark to the map, use this form. After moderation, the marker will appear on the map.",
+        "ru": "Если вы хотите добавить свою метку на карту используйте эту форму. После модерации маркер появится на карте."
+    },
+    "add_position": {
+        "en": "Position",
+        "ru": "Позиция"
+    },
+    "add_map": {
+        "en": "MAP",
+        "ru": "КАРТА"
+    },
+    "add_field_description": {
+        "en": "Specify as detailed a description of the location of the marker as possible. How to find it...",
+        "ru": "Укажите как можно подробное описание местонахождения маркера. Как найти его…"
+    },
+    "add_info": {
+        "en": "Marker info",
+        "ru": "Информация о маркере"
+    },
+    "add_type": {
+        "en": "TYPE",
+        "ru": "ТИП"
+    },
+    "add_field_image": {
+        "en": "Image link (imgur.com)",
+        "ru": "Ссылка на изображение (imgur.com)"
+    },
+    "add_field_video": {
+        "en": "Link to video (youtube.com)",
+        "ru": "Ссылка на видео (youtube.com)"
+    },
+    "add_field_name": {
+        "en": "Author's name",
+        "ru": "Имя автора"
+    },
+    "add_submit": {
+        "en": "Send",
+        "ru": "Отправить"
+    },
+    "add_submit_title": {
+        "en": "Successfully added",
+        "ru": "Успешно добавлено"
+    },
+    "add_submit_descr": {
+        "en": "Await for moderation…",
+        "ru": "Ожидайте модерации…"
+    },
+    "menu_mapchooser": {
+        "en": "Choose a map",
+        "ru": "Выбрать карту"
+    },
+    "menu_login": {
+        "en": "Log in with Google",
+        "ru": "Войти через Google"
+    }
+  }

@@ -1,0 +1,12 @@
+Options +MultiViews
+Options +FollowSymlinks
+RewriteEngine On
+DirectoryIndex index.php
+
+RewriteRule "^([a-zA-Z-0-9]+)/([-0-9]+)/([-0-9]+)/([-0-9]+)$" "?server=$1&z=$2&x=$3&y=$4" [NC]
+RewriteRule "^([a-zA-Z-0-9]+)/([-0-9]+)/([-0-9]+)/([-0-9]+)/$" "?server=$1&z=$2&x=$3&y=$4" [NC]
+
+ErrorDocument 400 /404
+ErrorDocument 401 /404
+ErrorDocument 403 /404
+ErrorDocument 404 /404
